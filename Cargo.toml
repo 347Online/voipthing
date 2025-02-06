@@ -2,3 +2,6 @@
 name = "voipthing"
 version = "0.1.0"
 edition = "2021"
+
+[dependencies]
+silence = { version = "0.1.3", features = ["server", "client", "all"] }
