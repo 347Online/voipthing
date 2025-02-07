@@ -6,3 +6,4 @@ resolver = "2"
 
 [workspace.dependencies]
 tokio = { version = "1.43.0", features = ["full"] }
+uuid = { version = "1.13.1", features = ["v7"] }
